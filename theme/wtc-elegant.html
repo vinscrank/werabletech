@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<!-- Change the value of lang="en" attribute if your website's language is not English.
+You can find the code of your language here - https://www.w3schools.com/tags/ref_language_codes.asp -->
+<html lang="en">
+    <head>
+        
+        <title>WearTechClub — Performance Based Smart Clothes</title>
+        <meta name="description" content="WearTechClub is smart activewear integrated into the mobile application, which monitors your health data, muscle and nerve movements and warns you when necessary.">  
+        <meta charset="utf-8">
+        <meta name="author" content="https://themeforest.net/user/bestlooker/portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.png" type="image/png" sizes="any">
+        <link rel="icon" href="images/favicon.svg" type="image/svg+xml">         
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style-responsive.css">
+        <link rel="stylesheet" href="css/vertical-rhythm.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/splitting.css">
+        <link rel="stylesheet" href="css/YTPlayer.css">
+        <link rel="stylesheet" href="css/demo-elegant/demo-elegant.css">
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    
+<style>
+.nav-logo-wrap .logo img{height:46px;width:auto}
+.wtc-perf{overflow:hidden;min-height:72vh}
+.wtc-perf .bg-video-wrapper{z-index:0}
+.portfolio-3-image img,.post-prev-2-img img,.team-1-image img,.team-item-image img,.services-4-image img,.call-action-4-image-1 img,.call-action-4-image-2 img{width:100%;object-fit:cover}
+.team-item-detail{display:none}
+#home > .container{align-items:flex-start}
+#home .wtc-hero-copy{text-align:left;max-width:460px;margin-top:7vh}
+#home .wtc-hero-copy .section-title-tiny{letter-spacing:.28em;text-transform:uppercase;font-size:11px;font-weight:500;opacity:.78;margin-bottom:14px}
+#home .wtc-hero-copy .hs-title-3{font-size:clamp(28px,3.1vw,46px);line-height:1.08;letter-spacing:-.035em;font-weight:400;margin-bottom:22px}
+#home .wtc-hero-shade{background:linear-gradient(180deg,rgba(6,6,8,.72) 0%,rgba(6,6,8,.18) 34%,rgba(6,6,8,.22) 100%)}
+.wtc-news-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:36px}
+.wtc-news-kicker{letter-spacing:.2em;text-transform:uppercase;font-size:11px;color:#8d8d8d;margin-bottom:8px}
+.wtc-news-feature,.wtc-news-row{color:inherit;text-decoration:none}
+.wtc-news-feature:hover,.wtc-news-row:hover{color:inherit}
+.wtc-news-media{display:block;overflow:hidden;border-radius:18px;aspect-ratio:16/10}
+.wtc-news-media img{width:100%;height:100%;object-fit:cover;display:block}
+.wtc-news-date{display:block;margin-top:18px;letter-spacing:.16em;text-transform:uppercase;font-size:11px;color:#8d8d8d}
+.wtc-news-feature h3{font-size:clamp(26px,2.4vw,36px);line-height:1.12;letter-spacing:-.03em;font-weight:500;margin:10px 0 12px}
+.wtc-news-feature p{max-width:540px;margin:0;color:#5c5c5c}
+.wtc-news-row{display:grid;grid-template-columns:104px 1fr;gap:16px;align-items:center;padding:20px 0;border-top:1px solid rgba(0,0,0,.08)}
+.wtc-news-row img{width:104px;height:78px;object-fit:cover;border-radius:12px;display:block}
+.wtc-news-row h3{font-size:18px;line-height:1.3;letter-spacing:-.02em;font-weight:500;margin:6px 0 0}
+.wtc-news-side .wtc-news-row:first-child{border-top:0;padding-top:0}
+.team-item{position:relative}
+.team-item-image{border-radius:18px;overflow:hidden}
+.team-item-image img{aspect-ratio:4/5;object-fit:cover}
+.team-item .team-item-descr{position:absolute;top:0;left:0;right:0;z-index:2;padding:22px 20px 72px;background:linear-gradient(180deg,rgba(0,0,0,.68),rgba(0,0,0,0));color:#fff;text-align:left;text-decoration:none}
+.team-item .team-item-name{margin-top:0;font-size:20px;line-height:1.25;letter-spacing:-.02em;text-transform:none;color:#fff}
+.team-item .team-item-role{margin:0 0 8px;letter-spacing:.14em;text-transform:uppercase;font-size:11px;color:rgba(255,255,255,.78)}
+#portfolio .work-img{aspect-ratio:1/1}
+#portfolio .work-img img{width:100%;height:100%;object-fit:cover;object-position:center}
+.wtc-stage{padding-top:96px;padding-bottom:96px;background-position:68% 28%;background-size:cover}
+.wtc-stage:before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(7,16,24,.5) 0%,rgba(7,16,24,.12) 36%,rgba(7,16,24,.55) 68%,rgba(7,16,24,.82) 100%);z-index:0}
+.wtc-stage>.container{position:relative;z-index:1}
+.wtc-stage .call-action-1-images{margin:0;padding:0}
+.wtc-stage .call-action-1-images,.wtc-stage .call-action-1-image-1,.wtc-stage .call-action-1-image-2-inner{overflow:visible;border-radius:0}
+.wtc-stage .call-action-1-images img{filter:drop-shadow(0 28px 40px rgba(0,0,0,.38))}
+.wtc-stage-copy{max-width:380px;margin-left:auto;padding:0 0 0 48px}
+.wtc-stage-copy h2{color:#fff;margin-bottom:18px}
+.wtc-stage-copy p{margin:0 0 28px;max-width:34ch;color:rgba(255,255,255,.92);font-size:16px;line-height:1.7}
+.wtc-stage-link{display:inline-flex;align-items:center;gap:10px;color:#fff;text-decoration:none;letter-spacing:.16em;text-transform:uppercase;font-size:11px;font-weight:500}
+.wtc-stage-link:hover{color:#fff}
+@media (max-width:991px){
+.wtc-stage{padding-top:64px;padding-bottom:64px}
+.wtc-stage-copy{max-width:none;margin-left:0;padding:36px 0 0}
+}
+.wtc-newslet{padding:96px 0;background:#f6f4f1}
+.wtc-newslet-form{max-width:520px;margin:0 auto;text-align:center}
+.wtc-newslet-kicker{letter-spacing:.22em;text-transform:uppercase;font-size:11px;font-weight:500;color:#8a847c;margin-bottom:12px}
+.wtc-newslet-title{margin:0 0 28px;font-size:28px;font-weight:400;letter-spacing:-.03em;line-height:1.2;color:#141414}
+.wtc-newslet-line{display:flex;align-items:center;gap:16px;border-bottom:1px solid rgba(20,20,20,.2)}
+.wtc-newslet .form input.newsletter-field{flex:1;width:100%;height:auto;margin:0;padding:12px 0;border:0;background:transparent;box-shadow:none;font-size:16px;font-weight:400;color:#141414;text-align:left}
+.wtc-newslet .form input.newsletter-field:hover,.wtc-newslet .form input.newsletter-field:focus{border:0;outline:none;box-shadow:none}
+.wtc-newslet .form input.newsletter-field::placeholder{color:#9a958e}
+.wtc-newslet-line button{border:0;background:transparent;padding:12px 0;letter-spacing:.18em;text-transform:uppercase;font-size:11px;font-weight:500;color:#141414;cursor:pointer}
+.wtc-newslet-note{margin:16px 0 0;font-size:12px;line-height:1.5;color:#8a847c}
+.wtc-newslet-note a{color:inherit}
+@media (max-width:575px){
+.wtc-newslet{padding:72px 0}
+.wtc-newslet-line{flex-direction:column;align-items:stretch;gap:0}
+.wtc-newslet-line button{align-self:flex-end}
+}
+</style>
+
+</head>
+    <body class="appear-animate">
+        
+        <!-- Page Loader -->   
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        <!-- End Page Loader -->
+
+        <!-- Skip to Content -->
+        <a href="#main" class="btn skip-to-content">Skip to Content</a>
+        <!-- End Skip to Content -->
+        
+        <!-- Page Wrap -->
+        <div class="page" id="top">
+            
+            <!-- Navigation Panel -->
+            <nav class="main-nav dark transparent stick-fixed wow-menubar">
+                <div class="main-nav-sub full-wrapper">
+                    
+                    <!-- Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
+                    If you use a PNG logo image, the image resolution must be equal 200% of the visible logo
+                    image size for support of retina screens. See details in the template documentation. *) -->
+                    <div class="nav-logo-wrap local-scroll">
+                        <a href="#top" class="logo font-alt">
+                            <img src="images/wtc/logo.png" alt="WearTechClub" width="92" height="51" />
+                        </a>
+                    </div>
+                    
+                    <!-- Mobile Menu Button -->
+                    <div class="mobile-nav" role="button" tabindex="0">
+                        <i class="mobile-nav-icon"></i>
+                        <span class="visually-hidden">Menu</span>
+                    </div>
+                    
+                    <!-- Main Menu -->
+                    <div class="inner-nav desktop-nav">
+                        <ul class="clearlist scroll-nav local-scroll justify-content-end">                            
+                            <li><a href="#home" class="active">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Performance</a></li>
+                            <li><a href="#portfolio">Journal</a></li>
+                            <li><a href="#blog">News</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="ms-3 me-2"></li>
+                            <li><a href="https://www.weartechclub.com/preorder" class="opacity-1 no-hover" target="_blank"><span class="btn btn-mod btn-small btn-border-w btn-circle" data-btn-animate="y">Join the Club</span></a></li>
+                        </ul>                        
+                    </div>
+                    <!-- End Main Menu -->
+                    
+                </div>
+            </nav>
+            <!-- End Navigation Panel -->
+            
+            <main id="main">
+            
+                <!-- Home Section -->
+                <section class="home-section bg-dark-alpha-30 parallax-5 light-content z-index-1" style="background-image: url(images/wtc/hero-poster.jpg)" id="home"><div class="bg-video-wrapper"><video class="bg-video" preload="auto" autoplay loop muted playsinline poster="images/wtc/hero-poster.jpg"><source src="videos/wtc/hero.mp4" type="video/mp4"></video><div class="bg-video-overlay wtc-hero-shade"></div></div>
+                    <div class="container min-height-100vh d-flex align-items-start pt-140 pb-100 pt-sm-120 pb-sm-120">
+                        <div class="local-scroll scroll-down-3-wrap wow fadeInUp" data-wow-offset="0">
+                            <a href="#about" class="scroll-down-3">Scroll Down</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Home Section -->
+                
+                
+                <!-- About Section -->
+                <section class="page-section pb-0" id="about">
+                    <div class="container position-relative">
+                    
+                        <div class="row">
+                            
+                            <div class="col-lg-5 d-flex align-items-center mb-md-50">                                
+                                <div>
+                                    
+                                    <div class="wow linesAnimIn" data-splitting="lines">
+                                        <h2 class="section-title mb-30 mb-sm-20"><span class="text-gray">About</span> WearTechClub<span class="text-gray">.</span></h2>
+                                        <div class="text-gray mb-30 mb-sm-20">
+                                            <p class="mb-0">
+                                                WearTechClub is smart activewear integrated into the mobile application, which monitors your health data, muscle and nerve movements and warns you when necessary, with its innovative fabric-integrated sensor technology.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="local-scroll wow fadeInUpShort wch-unset">
+                                        <a href="#team" class="link-hover-anim link-circle-1 align-middle" data-link-animate="y">Learn More <span class="visually-hidden">about us</span> <i class="mi-arrow-right size-18 align-middle"></i></a>
+                                    </div>
+                                    
+                                </div>                                
+                            </div>
+                            
+                            <div class="col-lg-6 offset-lg-1">
+                                <div class="row">
+                                    <div class="col-sm-6 pt-60 pt-xs-0 mb-xs-40" data-rellax-y data-rellax-speed="-0.5" data-rellax-percentage="0.5">
+                                        
+                                        <div class="spot-box clearfix mb-30"> 
+                                            <div class="spot-box-icon float-end ms-3"></div>                                           
+                                            <div class="spot-box-text text-end"><span class="text-gray">Fabric sensors <br /> for</span> your body.</div>
+                                        </div>
+                                        
+                                        <img src="images/wtc/veri1.png" class="w-100 round" alt="Image Description" />
+                                    
+                                    </div>
+                                    <div class="col-sm-6" data-rellax-y data-rellax-speed="0.5" data-rellax-percentage="0.5">
+                                        
+                                        <img src="images/wtc/veri2.png" class="w-100 round" alt="Image Description" />
+                                        
+                                        <div class="spot-box clearfix mt-30">
+                                            <div class="spot-box-icon float-start me-3"></div>
+                                            <div class="spot-box-text"><span class="text-gray">Health data <br /> in the</span> app. </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                </section>
+                <!-- End About Section -->
+                
+                
+                <!-- Marquee Section -->
+                <div class="page-section overflow-hidden">
+                    <!-- Marquee Text Line -->
+                    <div class="marquee marquee-style-1 mb-30">
+                        <div class="marquee-track marquee-animation">
+                            <div>Smart clothes for next gen</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>                           
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>   
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                            <div aria-hidden="true">Established in 2010</div>
+                        </div>
+                    </div>                
+                    <!-- End Marquee Text Line -->
+                
+                    <!-- Marquee Text Line -->
+                    <div class="marquee marquee-style-1">
+                        <div class="marquee-track marquee-animation">
+                            <div>Innovative and sustainable</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>    
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>                           
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>
+                            <div aria-hidden="true">100% Satisfied Clients</div>   
+                        </div>
+                    </div>
+                    <!-- End Marquee Text Line -->
+                
+                </div>
+                <!-- End Marquee Section -->
+                
+                
+                <!-- Call to Action Section -->
+                <section class="page-section bg-dark-1 parallax-6 light-content wtc-stage" style="background-image: url(images/wtc/brand.png)">
+                    <div class="container position-relative">
+                        <div class="row">
+                            <div class="col-md-6 col-xl-5">
+                                <div class="call-action-1-images">
+                                    <div class="call-action-1-image-1">
+                                        <img src="images/wtc/veri3.png" alt="WearTechClub app" />
+                                    </div>
+                                    <div class="call-action-1-image-2">
+                                        <div class="call-action-1-image-2-inner" data-rellax-y data-rellax-speed="0.7" data-rellax-percentage="0.427">
+                                            <img src="images/wtc/veri4.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-xl-1 d-flex align-items-center">
+                                <div class="wtc-stage-copy">
+                                    <h2 class="section-title">Increase your performance</h2>
+                                    <p>It is now possible to understand your health and performance in the most effective way. WearTechClub captures data from the most accurate position of your body with conductive fabrics.</p>
+                                    <div class="local-scroll">
+                                        <a href="#services" class="wtc-stage-link">See performance <i class="mi-arrow-right size-18"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Call to Action Section -->
+
+                <!-- Team Section -->
+                <section class="page-section pb-0" id="team">
+                    <div class="container">
+                        
+                        <div class="wtc-news-head">
+                            <div>
+                                <div class="wtc-news-kicker">News</div>
+                                <h2 class="section-title mb-0">Latest from the club</h2>
+                            </div>
+                            <a href="https://www.weartechclub.com/news" class="link-hover-anim link-circle-1 align-middle" data-link-animate="y">All news <i class="mi-arrow-right size-18 align-middle"></i></a>
+                        </div>
+                        
+                        <div class="row mt-n40">
+                            
+                            <!-- Team item -->
+                            <div class="col-md-4 mt-40">                                
+                                <div class="team-item">
+                                    <div class="team-item-image">
+                                        
+                                        <img src="images/wtc/news-award.jpg" class="wow scaleOutIn" data-wow-duration="1.2s" alt="Image Description" />
+                                        
+                                        <div class="team-item-detail">
+                                            <div class="team-social-links">
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Facebook
+                                                    </div>
+                                                    <i class="fa-facebook-f"></i>
+                                                </a>
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Twitter
+                                                    </div>
+                                                    <i class="fa-twitter"></i>
+                                                </a>
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Pinterest
+                                                    </div>
+                                                    <i class="fa-pinterest-p"></i>
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <a href="https://www.weartechclub.com/post/2025-bi-gg-spor-award-for-innovation-in-sports-technologies" class="team-item-descr">
+                                        <div class="team-item-role">Jul 28, 2025</div>
+                                        <div class="team-item-name">2025 BİGG SPOR Award for Innovation in Sports Technologies</div>
+                                    </a>
+                                </div>                                
+                            </div>
+                            <!-- End Team item -->
+                            
+                            <!-- Team item -->
+                            <div class="col-md-4 mt-40">                                
+                                <div class="team-item">
+                                    <div class="team-item-image">
+                                        
+                                        <img src="images/wtc/news-design.png" class="wow scaleOutIn" data-wow-duration="1.2s" alt="Image Description" />
+                                        
+                                        <div class="team-item-detail">
+                                            <div class="team-social-links">
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Facebook
+                                                    </div>
+                                                    <i class="fa-facebook-f"></i>
+                                                </a>
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Twitter
+                                                    </div>
+                                                    <i class="fa-twitter"></i>
+                                                </a>
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Pinterest
+                                                    </div>
+                                                    <i class="fa-pinterest-p"></i>
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <a href="https://www.weartechclub.com/post/designing-with-purpose-weartechclub-at-industrial-designers-day-2024" class="team-item-descr">
+                                        <div class="team-item-role">Jul 18, 2025</div>
+                                        <div class="team-item-name">Designing with Purpose: Industrial Designers’ Day 2025</div>
+                                    </a>
+                                </div>                                
+                            </div>
+                            <!-- End Team item -->
+                            
+                            <!-- Team item -->
+                            <div class="col-md-4 mt-40">                                
+                                <div class="team-item">
+                                    <div class="team-item-image">
+                                        
+                                        <img src="images/wtc/news-medipol.png" class="wow scaleOutIn" data-wow-duration="1.2s" alt="Image Description" />
+                                        
+                                        <div class="team-item-detail">
+                                            <div class="team-social-links">
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Facebook
+                                                    </div>
+                                                    <i class="fa-facebook-f"></i>
+                                                </a>
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Twitter
+                                                    </div>
+                                                    <i class="fa-twitter"></i>
+                                                </a>
+                                                
+                                                <a href="#" target="_blank" rel="noopener nofollow">
+                                                    <div class="visually-hidden">
+                                                        Pinterest
+                                                    </div>
+                                                    <i class="fa-pinterest-p"></i>
+                                                </a>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <a href="https://www.weartechclub.com/post/future-innovators-take-the-stage-wearable-technologies-course-at-medipol-university-reaches-impactf" class="team-item-descr">
+                                        <div class="team-item-role">Jul 18, 2025</div>
+                                        <div class="team-item-name">Future Innovators Take the Stage</div>
+                                    </a>
+                                </div>                                
+                            </div>
+                            <!-- End Team item -->
+                            
+                        </div>
+                        
+                    </div>
+                </section>
+                <!-- End Team Section -->
+                
+                
+                <!-- Marquee Section -->
+                <div class="page-section overflow-hidden">
+                    
+                    <!-- Marquee Text Line -->
+                    <div class="marquee marquee-style-1 mb-30">
+                        <div class="marquee-track marquee-animation">
+                            <div>Performance Data</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>  
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>                           
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>  
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                            <div aria-hidden="true">Professional Team</div>
+                        </div>
+                    </div>                
+                    <!-- End Marquee Text Line -->
+                
+                    <!-- Marquee Text Line -->
+                    <div class="marquee marquee-style-1">
+                        <div class="marquee-track marquee-animation">
+                            <div>Fabric Sensors</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>  
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>                           
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>   
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                            <div aria-hidden="true">Friendly Support</div>
+                        </div>
+                    </div>
+                    <!-- End Marquee Text Line -->
+                    
+                </div>
+                <!-- End Marquee Section -->
+                    
+                    
+                <!-- Services Section -->
+                <section class="page-section pt-0" id="services">                    
+                        
+                    <div class="page-section bg-dark-1 parallax-7 pb-140 wtc-perf" style="background-image: url(images/wtc/motion-poster.jpg)">
+                        <div class="bg-video-wrapper">
+                            <video class="bg-video" preload="auto" autoplay loop muted playsinline poster="images/wtc/motion-poster.jpg"><source src="videos/wtc/motion.mp4" type="video/mp4"></video>
+                        </div>
+                    </div>                        
+                        
+                    <div class="container mt-n140 position-relative z-index-1">
+                        <div class="row mb-n30">
+                            
+                            <!-- Services Item-->
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-30">
+                                <div class="services-3-item round text-center">
+                                    <div class="wow fadeInUpShort" data-wow-offset="50">
+                                        
+                                        <div class="services-3-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="64" viewBox="0 0 48 64" aria-hidden="true">
+                                                <path d="M16 18.75l32 32-4.25 4.25-32-32zM18.625 27l25.125 25.125 1.375-1.375-25.125-25.25zM15 13v-5h2v5h-2zM15 38.5v-5h2v5h-2zM27 24v-2h5v2h-5zM0 24v-2h5v2h-5zM5.875 11.75l3.625 3.625-1.5 1.375-3.5-3.5zM9.5 31.25l-3.625 3.5-1.375-1.375 3.5-3.5zM27.5 13.25l-3.5 3.5-1.5-1.375 3.625-3.625z"></path>
+                                            </svg>
+                                        </div>
+                                        
+                                        <h3 class="services-3-title">
+                                            Health Data
+                                        </h3>
+                                        
+                                        <div class="services-3-text">
+                                            WearTechClub is smart activewear integrated into the mobile application, which monitors your health data, muscle and nerve movements and warns you when necessary, with its innovative fabric-integrated sensor technology.</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Services Item-->
+                            
+                            <!-- Services Item-->
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-30">
+                                <div class="services-3-item round text-center">
+                                    <div class="wow fadeInUpShort" data-wow-offset="50">
+                                        
+                                        <div class="services-3-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="64" viewBox="0 0 60 64" aria-hidden="true">
+                                                <path d="M60 48h-22v2h8v2h-32.125v-2h8v-2h-21.875v-36h60v36zM2 14v32h56v-32h-56z"></path>
+                                            </svg>
+                                        </div>
+                                        
+                                        <h3 class="services-3-title">
+                                            Muscle and Nerve
+                                        </h3>
+                                        
+                                        <div class="services-3-text">
+                                            Product design is sometimes confused with industrial design, and has recently become a broad term inclusive of service, and physical product design.
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Services Item-->
+                            
+                            <!-- Services Item-->
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-30">
+                                <div class="services-3-item round text-center">
+                                    <div class="wow fadeInUpShort" data-wow-offset="50">
+                                        
+                                        <div class="services-3-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="64" viewBox="0 0 50 64" aria-hidden="true">
+                                                <path d="M0 11h50v42h-50v-42zM9 51v-6h-7v6h7zM9 43v-6h-7v6h7zM9 35v-6h-7v6h7zM9 27v-6h-7v6h7zM9 19v-6h-7v6h7zM39 51v-18h-28v18h28zM39 31v-18h-28v18h28zM48 51v-6h-7v6h7zM48 43v-6h-7v6h7zM48 35v-6h-7v6h7zM48 27v-6h-7v6h7zM48 19v-6h-7v6h7z"></path>
+                                            </svg>
+                                        </div>
+                                        
+                                        <h3 class="services-3-title">
+                                            Fabric Sensors
+                                        </h3>
+                                        
+                                        <div class="services-3-text">
+                                            WearTechClub captures data from the most accurate position of your body with conductive fabrics and shows you the most accurate data.
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Services Item-->
+                            
+                            <!-- Services Item-->
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-30">
+                                <div class="services-3-item round text-center">
+                                    <div class="wow fadeInUpShort" data-wow-offset="50">
+                                        
+                                        <div class="services-3-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="64" viewBox="0 0 48 64" aria-hidden="true">
+                                                <path d="M24.125 20c3.25 0 6.25 1.25 8.5 3.5s3.5 5.25 3.5 8.5-1.25 6.25-3.5 8.5-5.25 3.5-8.5 3.5-6.25-1.25-8.5-3.5-3.5-5.25-3.5-8.5 1.25-6.25 3.5-8.5 5.25-3.5 8.5-3.5zM24.125 42c5.5 0 10-4.5 10-10s-4.5-10-10-10-10 4.5-10 10 4.5 10 10 10zM17.25 10.375c-1.25 0.375-2.5 0.875-3.75 1.5 0.25 1 0.125 2 0 3-0.25 1.625-1 3.125-2.25 4.375-1.5 1.5-3.625 2.375-5.75 2.375-0.5 0-1.125 0-1.625-0.125-0.625 1.25-1.125 2.5-1.5 3.75 0.875 0.5 1.5 1.25 2.125 2.125 1 1.375 1.5 3 1.5 4.625s-0.5 3.25-1.5 4.625c-0.625 0.875-1.25 1.625-2.125 2.125 0.375 1.25 0.875 2.5 1.5 3.75 0.5-0.125 1.125-0.125 1.625-0.125 2.125 0 4.25 0.875 5.75 2.375 1.25 1.25 2 2.75 2.25 4.375 0.125 1 0.25 2 0 3 1.25 0.625 2.5 1.125 3.75 1.5 0.5-0.875 1.25-1.5 2.125-2.125 1.375-1 3-1.5 4.625-1.5s3.25 0.5 4.625 1.5c0.875 0.625 1.625 1.25 2.125 2.125 1.25-0.375 2.5-0.875 3.75-1.5-0.25-1-0.125-2 0-3 0.25-1.625 1-3.125 2.25-4.375 1.5-1.5 3.625-2.375 5.75-2.375 0.5 0 1.125 0 1.625 0.125 0.625-1.25 1.125-2.5 1.5-3.75-0.875-0.5-1.5-1.25-2.125-2.125-1-1.375-1.5-3-1.5-4.625s0.5-3.25 1.5-4.625c0.625-0.875 1.25-1.625 2.125-2.125-0.375-1.25-0.875-2.5-1.5-3.75-0.5 0.125-1.125 0.125-1.625 0.125-2.125 0-4.25-0.875-5.75-2.375-1.25-1.25-2-2.75-2.25-4.375-0.125-1-0.25-2 0-3-1.25-0.625-2.5-1.125-3.75-1.5-0.5 0.875-1.25 1.5-2.125 2.125-1.375 1-3 1.5-4.625 1.5s-3.25-0.5-4.625-1.5c-0.875-0.625-1.625-1.25-2.125-2.125zM29.75 8v0c2.5 0.625 5 1.625 7.125 3-1 2.25-0.625 5 1.25 6.875 1.25 1.25 2.75 1.75 4.375 1.75 0.875 0 1.75-0.125 2.5-0.5 1.375 2.125 2.375 4.625 3 7.125-2.375 0.875-4 3.125-4 5.75s1.75 4.875 4 5.75c-0.625 2.5-1.625 5-3 7.125-0.75-0.375-1.625-0.5-2.5-0.5-1.625 0-3.125 0.5-4.375 1.75-1.875 1.875-2.25 4.625-1.25 6.875-2.125 1.375-4.625 2.375-7.125 3-0.875-2.25-3.125-4-5.75-4s-4.875 1.75-5.75 4c-2.5-0.625-5-1.625-7.125-3 1-2.25 0.625-5-1.25-6.875-1.25-1.25-2.75-1.75-4.375-1.75-0.875 0-1.75 0.125-2.5 0.5-1.375-2.125-2.375-4.625-3-7.125 2.25-0.875 4-3.125 4-5.75s-1.625-4.875-4-5.75c0.625-2.5 1.625-5 3-7.125 0.75 0.375 1.625 0.5 2.5 0.5 1.625 0 3.125-0.5 4.375-1.75 1.875-1.875 2.25-4.625 1.25-6.875 2.125-1.375 4.625-2.375 7.125-3 0.875 2.375 3.125 4 5.75 4s4.875-1.625 5.75-4z"></path>
+                                            </svg>
+                                        </div>
+                                        
+                                        <h3 class="services-3-title">
+                                            Reports
+                                        </h3>
+                                        
+                                        <div class="services-3-text">
+                                            It reports what you need to do with your performance data.
+                                        </div>
+                                    
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- End Services Item-->
+                            
+                            <!-- Services Item-->
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-30">
+                                <div class="services-3-item round text-center">
+                                    <div class="wow fadeInUpShort" data-wow-offset="50">
+                                        
+                                        <div class="services-3-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="64" viewBox="0 0 48 64" aria-hidden="true">
+                                                <path d="M44.25 20c2.25 0 3.75 1.625 3.75 3.875v22c0 2.25-1.5 4.125-3.75 4.125h-40c-2.25 0-4.25-1.875-4.25-4.125v-22c0-2.25 2-3.875 4.25-3.875h1.625v-2h4.25v2h1.625c4-4.5 5.375-6 6.875-6h11c1.5 0 2.875 1.5 6.875 6h7.75zM46 45.875v-22c0-1.125-0.625-1.875-1.75-1.875h-8.625l-0.625-0.375c-0.375-0.5-0.875-1-1.25-1.375-1.5-1.625-2.5-3-3.25-3.75-0.625-0.625-0.875-0.5-0.875-0.5h-11s-0.25 0-0.875 0.5c-0.75 0.625-1.75 1.75-3.125 3.375-0.375 0.5-0.875 1.25-1.375 1.75l-0.625 0.375h-8.375c-1.125 0-2.25 0.875-2.25 1.875v22c0 1.125 1.125 2.125 2.25 2.125h40c1 0 1.75-1 1.75-2.125zM24 23.75c5.875 0 10.75 4.75 10.75 10.625s-4.875 10.625-10.75 10.625-10.75-4.75-10.75-10.625 4.875-10.625 10.75-10.625zM24 43c4.75 0 8.75-3.875 8.75-8.625s-4-8.625-8.75-8.625-8.75 3.875-8.75 8.625 4 8.625 8.75 8.625zM36 26.125v-2.125h2.125v2.125h-2.125zM20 34.375c0-2.625 1.375-4 4-4s4 1.375 4 4-1.375 4-4 4-4-1.375-4-4z"></path>
+                                            </svg>
+                                        </div>
+                                        
+                                        <h3 class="services-3-title">
+                                            Smart Warnings
+                                        </h3>
+                                        
+                                        <div class="services-3-text">
+                                            Innovative and sustainable active brand and moment.
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Services Item-->
+                            
+                            <!-- Services Item-->
+                            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-30">
+                                <div class="services-3-item round text-center">
+                                    <div class="wow fadeInUpShort" data-wow-offset="50">
+                                        
+                                        <div class="services-3-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="64" viewBox="0 0 36 64" aria-hidden="true">
+                                                <path d="M4 20v-8h28v8h-28zM6 14v4h24v-4h-24zM32 8c2.25 0 4 1.75 4 4v40c0 2.25-1.75 4-4 4h-28c-2.25 0-4-1.75-4-4v-40c0-2.25 1.75-4 4-4h28zM34 52v-40c0-1.125-0.875-2-2-2h-28c-1.125 0-2 0.875-2 2v40c0 1.125 0.875 2 2 2h28c1.125 0 2-0.875 2-2zM6 30h6v2h-8v-8h2v6zM6 40h6v2h-8v-8h2v6zM6 50h6v2h-8v-8h2v6zM16 30h6v2h-8v-8h2v6zM26 30h6v2h-8v-8h2v6zM16 40h6v2h-8v-8h2v6zM16 50h6v2h-8v-8h2v6zM26 50h6v2h-8v-18h2v16z"></path>
+                                            </svg>
+                                        </div>
+                                        
+                                        <h3 class="services-3-title">
+                                            Next Gen
+                                        </h3>
+                                        
+                                        <div class="services-3-text">
+                                            WearTechClub warns you when necessary, with fabric-integrated sensor technology.
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Services Item-->
+                            
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- End Services Section -->
+                
+                
+                <!-- Divider -->
+                <hr class="mt-0 mb-0"/>
+                <!-- End Divider -->
+                
+                
+                <!-- Portfolio Section -->
+                <section class="page-section pb-0" id="portfolio">
+                    
+                    <div class="container">
+                        
+                        <div class="row mb-70 mb-sm-50">
+                            <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+                                <h2 class="section-title mb-30 mb-sm-20"><span class="text-gray">The</span> Journal<span class="text-gray">.</span></h2>
+                                <div class="text-gray">
+                                    From muscles to motion, explore how smart sensors and data-driven tools are transforming performance and health. Welcome to the future of wearable intelligence, built for bodies in motion.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Works Filter -->                    
+                        <div class="works-filter works-filter-elegant text-center mb-50">
+                            <a href="#" class="filter active" role="button" aria-pressed="true" data-filter="*">All posts</a>
+                            <a href="#branding" class="filter" role="button" aria-pressed="false" data-filter=".branding">Sensors</a>
+                            <a href="#design" class="filter" role="button" aria-pressed="false" data-filter=".design">Performance</a>
+                            <a href="#development" class="filter" role="button" aria-pressed="false" data-filter=".development">Reports</a>
+                        </div>                        
+                        <!-- End Works Filter -->                       
+                        
+                    </div>
+                    
+                    <div class="position-relative">
+                        
+                        <!-- Works Grid -->
+                        <ul class="works-grid work-grid-4 work-grid-gut-sm hide-titles" id="work-grid">
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix development">
+                                <a href="images/wtc/blog-fatigue.webp" class="work-lightbox-link mfp-image">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/blog-fatigue.webp" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">From Muscle to Mind: Monitoring Neuromuscular Fatigue</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix branding design">
+                                <a href="https://www.weartechclub.com/post/the-pinnacle-of-smart-sensor-innovation" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/blog-pinnacle.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">The Pinnacle of Smart Sensor Innovation</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix branding">
+                                <a href="https://www.weartechclub.com/post/train-smarter-not-harder" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/blog-train.png" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">Train Smarter, Not Harder</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix design development">
+                                <a href="https://www.weartechclub.com/post/technical-textiles-shaping-tomorrow-s-industries" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/blog-textiles.png" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">Technical textiles: Shaping tomorrow's industries</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix design">
+                                <a href="https://www.weartechclub.com/post/weartechclub-and-artificial-intelligence-innovation-in-the-design-process" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/blog-ai.png" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">WearTechClub business plan with AI</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix design branding">
+                                <a href="images/wtc/blog-thinking.jpg" class="work-lightbox-link mfp-image">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/blog-thinking.jpg" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">Design thinking: A creative approach to problem solving</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix branding design">
+                                <a href="https://www.weartechclub.com/post/design-thinking-a-creative-approach-to-problem-solving" class="work-ext-link">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/phone.png" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">Smart Activewear</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                            <!-- Work Item (Blog) -->
+                            <li class="work-item mix development">
+                                <a href="images/wtc/brand.png" class="work-lightbox-link mfp-image">
+                                    <div class="work-img">
+                                        <div class="work-img-bg wow-p scalexIn"></div>
+                                        <img src="images/wtc/brand.png" alt="Work Description" class="wow-p fadeIn" data-wow-delay="1s" />
+                                    </div>
+                                    <div class="work-intro">
+                                        <h3 class="work-title">Active Brand</h3>
+                                        <div class="work-descr">
+                                            Blog
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- End Work Item -->
+                            
+                        </ul>
+                        <!-- End Works Grid -->
+                        
+                    </div>
+                    
+                </section>
+                <!-- End Portfolio Section -->
+                
+                
+                <!-- Call to Action Section -->
+                <section class="small-section bg-dark-1 light-content">
+                    <div class="container">
+                        
+                        <div class="row mb-n10">
+                            
+                            <div class="col-md-6 offset-md-1 col-lg-5 offset-lg-2 mb-sm-30 text-center text-md-start">
+                                <h2 class="section-title-small mb-0">Join WearTechClub</h2>
+                            </div>
+                            <div class="col-md-4 col-lg-3 text-center text-md-end">
+                                <div class="mt-n20">
+                                    <a href="#contact" class="link-hover-anim link-circle-1 align-middle" data-link-animate="y">Join the Club</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </section>
+                <!-- End Call to Action Section -->
+                
+                <!-- Blog Section -->
+                <section class="page-section" id="blog">
+                    <div class="container">
+                        
+                        <div class="wtc-news-head">
+                            <div>
+                                <div class="wtc-news-kicker">Newsroom</div>
+                                <h2 class="section-title mb-0">What is happening</h2>
+                            </div>
+                            <a href="https://www.weartechclub.com/news" class="link-hover-anim link-circle-1 align-middle" data-link-animate="y">All news <i class="mi-arrow-right size-18 align-middle"></i></a>
+                        </div>
+                        <div class="row align-items-start">
+                            <div class="col-lg-7 mb-md-40">
+                                <a class="wtc-news-feature" href="https://www.weartechclub.com/post/2025-bi-gg-spor-award-for-innovation-in-sports-technologies">
+                                    <span class="wtc-news-media"><img src="images/wtc/news-award.jpg" alt="2025 BİGG SPOR Award for Innovation in Sports Technologies" /></span>
+                                    <span class="wtc-news-date">Jul 28, 2025</span>
+                                    <h3>2025 BİGG SPOR Award for Innovation in Sports Technologies</h3>
+                                    <p>Weartech Club received the 2025 BİGG SPOR Award, Türkiye’s top honor in sports technologies, for its groundbreaking work in wearable innovation.</p>
+                                </a>
+                            </div>
+                            <div class="col-lg-5 wtc-news-side">
+                                <a class="wtc-news-row" href="https://www.weartechclub.com/post/designing-with-purpose-weartechclub-at-industrial-designers-day-2024">
+                                    <img src="images/wtc/news-design.png" alt="Designing with Purpose: Industrial Designers’ Day 2025" />
+                                    <span>
+                                        <span class="wtc-news-date">Jul 18, 2025</span>
+                                        <h3>Designing with Purpose: Industrial Designers’ Day 2025</h3>
+                                    </span>
+                                </a>
+                                <a class="wtc-news-row" href="https://www.weartechclub.com/post/future-innovators-take-the-stage-wearable-technologies-course-at-medipol-university-reaches-impactf">
+                                    <img src="images/wtc/news-medipol.png" alt="Future Innovators Take the Stage" />
+                                    <span>
+                                        <span class="wtc-news-date">Jul 18, 2025</span>
+                                        <h3>Future Innovators Take the Stage: Wearable Technologies Course at Medipol University</h3>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+                <!-- End Blog Section -->
+                
+                
+                <!-- Newsletter Section -->
+                <section class="wtc-newslet">
+                    <div class="container">
+                        <form id="mailchimp" class="form wtc-newslet-form" autocomplete="off">
+                            <div class="wtc-newslet-kicker">Newsletter</div>
+                            <h2 class="wtc-newslet-title">A short note, now and then.</h2>
+                            <div class="wtc-newslet-line">
+                                <input placeholder="Email address" class="newsletter-field" type="email" pattern=".{5,100}" required aria-required="true">
+                                <button type="submit" aria-controls="subscribe-result">Subscribe</button>
+                            </div>
+                            <p class="wtc-newslet-note">By sending the form you agree to the <a href="https://www.weartechclub.com/term-of-use">Terms of Use</a> and <a href="https://www.weartechclub.com/privacy-policy">Privacy Policy</a>.</p>
+                            <div id="subscribe-result" role="region" aria-live="polite" aria-atomic="true"></div>
+                        </form>
+                    </div>
+                </section>
+                <!-- End Newsletter Section -->
+                
+                
+                <!-- Contact Section -->
+                <section class="page-section" id="contact" data-wtc="1">
+                    <div class="container">
+                        
+                        <div class="row mb-70 mb-sm-50">
+                            <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 text-center">
+                                <h2 class="section-title mb-30 mb-sm-20"><span class="text-gray">Contact</span> Us<span class="text-gray">.</span></h2>
+                                <div class="text-gray">
+                                    Join the club, ask about an order, or write to hello@weartechclub.com.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row mt-n10 mb-60 mb-xs-40">
+                            
+                            <div class="col-md-10 offset-md-1">
+                                <div class="row">
+                                    
+                                    <!-- Phone -->
+                                    <div class="col-md-6 col-lg-4 mb-md-30">
+                                        <div class="contact-item wow fadeScaleIn" data-wow-delay="0" data-wow-duration="1s">
+                                            <div class="ci-icon">
+                                                <i class="mi-mobile"></i>
+                                            </div>
+                                            <h4 class="ci-title">
+                                                Call Us
+                                            </h4>
+                                            <div class="ci-text">
+                                                +90 0532 644 65 12
+                                            </div>
+                                            <div class="ci-link">
+                                                <a href="tel:+61383767284">Call</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Phone -->
+                                    
+                                    <!-- Address -->
+                                    <div class="col-md-6 col-lg-4 mb-md-30">
+                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".1s" data-wow-duration="1s">
+                                            <div class="ci-icon">
+                                                <i class="mi-location"></i>
+                                            </div>
+                                            <h4 class="ci-title">
+                                                Address
+                                            </h4>
+                                            <div class="ci-text">
+                                                Türkiye
+                                            </div>
+                                            <div class="ci-link">
+                                                <a href="https://goo.gl/maps/7Vw1PBhxx5BaXStr8" rel="nofollow noopener" target="_blank">Türkiye</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Address -->
+                                    
+                                    <!-- Email -->
+                                    <div class="col-md-6 col-lg-4 mb-md-30">
+                                        <div class="contact-item wow fadeScaleIn" data-wow-delay=".2s" data-wow-duration="1s">
+                                            <div class="ci-icon">
+                                                <i class="mi-email"></i>
+                                            </div>
+                                            <h4 class="ci-title">
+                                                Email
+                                            </h4>
+                                            <div class="ci-text">
+                                                hello@weartechclub.com
+                                            </div>
+                                            <div class="ci-link">
+                                                <a href="mailto:hello@weartechclub.com">Email</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Email -->
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!-- Contact Form -->                            
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                
+                                <form class="form contact-form wow fadeInUp wch-unset" data-wow-delay=".5s" id="contact_form">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <!-- Name -->
+                                            <div class="form-group">
+                                                <label for="name">Name</label>
+                                                <input type="text" name="name" id="name" class="input-lg round form-control" placeholder="Enter your name" pattern=".{3,100}" required aria-required="true">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <!-- Email -->
+                                            <div class="form-group">
+                                                <label for="email">Email</label>
+                                                <input type="email" name="email" id="email" class="input-lg round form-control" placeholder="Enter your email" pattern=".{5,100}" required aria-required="true">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Message -->
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" id="message" class="input-lg round form-control" style="height: 130px;" placeholder="Enter your message"></textarea>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <!-- Inform Tip -->
+                                            <div class="form-tip pt-20 pt-sm-0">
+                                                <i class="icon-info size-16"></i>
+                                                All the fields are required. By sending the form you agree to the <a href="https://www.weartechclub.com/term-of-use">Terms of Use</a> and <a href="https://www.weartechclub.com/privacy-policy">Privacy Policy</a>.
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <!-- Send Button -->
+                                            <div class="text-end pt-10">
+                                                <button type="submit" id="submit_btn" aria-controls="result" class="submit_btn link-hover-anim link-circle-1 align-middle" data-link-animate="y">
+                                                     Send Message <i class="mi-arrow-right size-18 align-middle"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                   <div id="result" role="region" aria-live="polite" aria-atomic="true"></div>
+                                   
+                                </form>
+                                
+                            </div>
+                        </div>
+                        <!-- End Contact Form -->
+                        
+                    </div>
+                </section>
+                <!-- End Contact Section -->
+                
+            </main>
+            
+            <!-- Footer -->
+            <footer class="bg-dark-1 light-content footer z-index-1 position-relative">
+                <div class="container position-relative text-center pt-140 pb-80 pb-sm-50">
+                    
+                    <!-- Scroll Up -->
+                    <div class="local-scroll link-to-top-2-wrap">
+                        <a href="#top" class="link-to-top-2">Back to top</a>
+                    </div>
+                    <!-- End Scroll Up -->
+                    
+                    <!-- Social Links -->
+                    <div class="footer-social-links mb-60">
+                        <a href="#" title="Facebook" rel="noopener nofollow" target="_blank">
+                            <span class="visually-hidden">Facebook</span>
+                            <i class="fa-facebook-f"></i>
+                        </a>
+                        <a href="#" title="Twitter" rel="noopener nofollow" target="_blank">
+                            <span class="visually-hidden">Twitter</span>
+                            <i class="fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/weartechclub/" target="_blank" rel="noopener" title="Instagram" rel="noopener nofollow" target="_blank">
+                            <span class="visually-hidden">Instagram</span>
+                            <i class="fa-instagram"></i>
+                        </a>
+                        <a href="#" title="Behance" rel="noopener nofollow" target="_blank">
+                            <span class="visually-hidden">Behance</span>
+                            <i class="fa-behance"></i>
+                         </a>
+                        <a href="#" title="Dribbble" rel="noopener nofollow" target="_blank">
+                            <span class="visually-hidden">Dribbble</span>
+                            <i class="fa-dribbble"></i>
+                        </a>
+                    </div>
+                    <!-- End Social Links -->
+                    
+                    <!-- Footer Text -->
+                    <div class="footer-text">
+                        
+                        <!-- Copyright -->
+                        <div>
+                            <a href="https://themeforest.net/user/bestlooker/portfolio">© WearTechClub</a>.
+                        </div>
+                        <!-- End Copyright -->
+                        
+                        <div class="footer-made">
+                            Innovative and sustainable active brand and moment.
+                        </div>
+                        
+                    </div>
+                    <!-- End Footer Text -->  
+                    
+                 </div>
+                 
+            </footer>
+            <!-- End Footer -->
+        
+        </div>
+        <!-- End Page Wrap -->      
+        
+        <!-- JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>             
+        <script src="js/contact-form.js"></script>        
+        <script src="js/all.js"></script> 
+        <!-- End JS -->       
+        
+    </body>
+</html>
